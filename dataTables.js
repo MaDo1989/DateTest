@@ -5578,6 +5578,8 @@
                         nestedSort[i]._idx = $.inArray(nestedSort[i][1], aoColumns[iCol].asSorting);
                     }
 
+                    alert("stype is " + sType);
+
                     aSort.push({
                         src: srcCol,
                         col: iCol,
